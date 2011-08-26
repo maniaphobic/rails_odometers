@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  vehicle_id: 1
+  date: 2011-08-26 16:22:33
+  distance: 1
+  comments: MyString
+
+two:
+  vehicle_id: 1
+  date: 2011-08-26 16:22:33
+  distance: 1
+  comments: MyString

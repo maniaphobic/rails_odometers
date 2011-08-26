@@ -1,4 +1,12 @@
 Odometers::Application.routes.draw do
+  resources :purpose_defs
+
+  resources :purposes
+
+  resources :trips
+
+  resources :vehicles
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

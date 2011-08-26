@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @purpose_def.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @purpose_def.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_purpose_def_path(@purpose_def) %> |
+<%= link_to 'Back', purpose_defs_path %>
